@@ -1,0 +1,43 @@
+# Python / Odoo specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Odoo runtime and local data
+odoo-web-data/
+odoo-db-data/
+
+# Docker
+*.env
+.env
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Secrets
+odoo_pg_pass
+init-odoo-user-final.sql
+
+# Config and temporary files
+config/odoo.conf
+*.bak
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# Logs and debug
+*.log
+
+# Node modules (if you add frontend code)
+node_modules/
+
